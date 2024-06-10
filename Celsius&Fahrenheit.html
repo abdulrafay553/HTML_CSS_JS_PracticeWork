@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Celsius & Fahrenheit Conversion</title>
+</head>
+<body>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		// Function to convert Celsius to Fahrenheit
+	function celsiusToFahrenheit(celsius) {
+	  return (celsius * 9/5) + 32;
+	}
+
+	// Function to convert Fahrenheit to Celsius
+	function fahrenheitToCelsius(fahrenheit) {
+	  return (fahrenheit - 32) * 5/9;
+	}
+
+	// Prompt the user for input
+	var input = prompt("Enter a temperature value:");
+	var choice = prompt("Enter 'c' to convert to Celsius or 'f' to convert to Fahrenheit:");
+
+	// Convert the input based on the user's choice
+	if (choice === 'f') {
+	  var celsius = parseFloat(input);
+	  var fahrenheit = celsiusToFahrenheit(celsius);
+	  alert(celsius + "°C is equal to " + fahrenheit + "°F");
+	} else if (choice === 'c') {
+	  var fahrenheit = parseFloat(input);
+	  var celsius = fahrenheitToCelsius(fahrenheit);
+	  alert(fahrenheit + "°F is equal to " + celsius + "°C");
+	} else {
+	  alert("Invalid choice. Please enter 'c' or 'f'.");
+	}
+
+
+
+
+
+
+</script>
+</body>
+</html>
