@@ -1,0 +1,462 @@
+		.box {
+			position: relative;
+			background-color: #d66fb4;
+			width: 100%;
+			height: 800px;
+		}
+		.box1 {
+			position: absolute;
+			background-color: #30283b;
+			width: 300px;
+			height: 800px;
+			left: 300px;
+			top: 0px;
+
+		}
+		.text {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 30pt;
+			color: white;
+			left: 20px;
+			top: 200px;
+		}
+		.text1 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			left: 10px;
+			top: 50px;
+			writing-mode: vertical-lr;
+			transform: rotate(180deg);
+		}
+		.text2 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 11spt;
+			color: white;
+			left: 630px;
+			top: 250px;
+			line-height: 1.6;
+		}
+		.box2 {
+			position: absolute;
+			background-color: #e65d1e;
+			width: 300px;
+			height: 290px;
+			left: 600px;
+			bottom: 0px;
+		}
+		.box3 {
+			position: absolute;
+			background-color: #31c5da;
+			width: 300px;
+			height: 950px;
+			left: 900px;
+			top: 510px;
+			opacity: 0.8;
+		}
+		.box4 {
+			position: absolute;
+			background-color: #e65d1e;
+			width: 303px;
+			height: 290px;
+			right: 0px;
+			bottom: 0px;
+		}
+		.text3 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			line-height: 1.6;
+			left: 15px;
+			top: 425px;
+		}
+		.newbox {
+			background-color: #f0f2e4;
+			width: 100%;
+			height: 2900px;
+		}
+		.newtext {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: black;
+			line-height: 1.4;
+			margin-left: 300px;
+			margin-top: 150px;
+
+		}
+		.circle1 {
+			position: absolute;
+			width: 225px;
+			height: 225px;
+			border-radius: 50%;
+			background-color: white;
+			left: 37px;
+			bottom: 35px;
+		}
+		.circle2 {
+			position: absolute;
+			width: 225px;
+			height: 225px;
+			border-radius: 50%;
+			background-color: white;
+			left: 37px;
+			bottom: 35px;
+						
+		}
+		.circle3 {
+			position: absolute;
+			width: 225px;
+			height: 225px;
+			border-radius: 50%;
+			background-color: #30283b;
+			left: 37px;
+			top: 35px;
+						
+		}
+		.circle4 {
+			position: absolute;
+			width: 225px;
+			height: 225px;
+			border-radius: 50%;
+			background-color: white;
+			left: 37px;
+			bottom: 35px;
+						
+		}
+		.image1 {
+			border-radius: 70%;
+			height: 120px;
+			width: 170px;
+			margin-left: 28px;
+			margin-top: 55px;
+		}
+		.image2 {
+			border-radius: 70%;
+			height: 120px;
+			width: 170px;
+			margin-left: 28px;
+			margin-top: 55px;
+		}
+		.image3 {
+			border-radius: 70%;
+			height: 150px;
+			width: 170px;
+			margin-left: 28px;
+			margin-top: 40px;
+		}
+		.image4 {
+			border-radius: 70%;
+			height: 130px;
+			width: 170px;
+			margin-left: 28px;
+			margin-top: 50px;
+		}
+		.bg {
+			position: absolute;
+			/*background-image: url(/Images/a1.png);*/
+			width: 99%;
+			height: 1200px;
+			opacity: 0.5;
+			filter: grayscale(100%);
+			top: 1250px;
+			/*background-repeat: no-repeat;*/
+
+		}
+		.boxx {
+			position: absolute;
+			background-color: #30283b;
+			width: 40%;
+			height: 600px;
+			left: 9px;
+			top: 1550px;
+		}
+		.texxt {
+			position: absolute;
+			font-size: 18pt;
+			left: 10px;
+			top: 70px;
+			color: white;
+			font-family: sans-serif;
+			writing-mode: vertical-lr;
+			transform: rotate(180deg);
+		}
+		.texxt2 {
+			position: absolute;
+			font-size: 12pt;
+			left: 120px;
+			top: 50px;
+			color: white;
+			font-family: sans-serif;
+			line-height: 1.6;	
+		}
+		.imgg {
+			position: absolute;
+			top: 175px;
+			right: 0px;
+			width: 20%;
+		}
+		.newtxt {
+			position: absolute;
+			left: 20px;
+			top: 740px;
+			font-family: sans-serif;
+			line-height: 1.6;
+		}
+		.div {
+			position: absolute;
+			background-color: #f0f2e4;
+			width: 600px;
+			height: 450px;
+			top: 2350px;
+			left: 350px;
+
+		}
+		.par {
+			position: absolute;
+			font-family: sans-serif;
+			left: 15px;
+			top: 60px;
+			line-height: 1.7;
+
+		}
+		.bbox {
+			position: relative;
+			background-color: #31c5da;
+			width: 300px;
+			height: 950px;
+			left: 940px;
+			top: 1400px;
+			opacity: 0.9;
+		}
+		.circleimg {
+			position: absolute;
+			width: 300px;
+			height: 250px;
+			right: 271px;
+			top: 2200px;
+		}
+		.bene {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 18pt;
+			margin-left: 960px;
+			margin-top: 800px;
+		}
+		.bene1 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			margin-left: 960px;
+			margin-top: 850px;
+			line-height: 1.6;
+		}
+		.bg2 {
+			position: absolute;
+			top: 1457px; 
+			left: 60px;
+
+		}
+		.req {
+			position: absolute;
+			font-size: 40pt;
+			font-family: sans-serif;
+			font-weight: 700;
+			top: 1390px;
+			left: 440px;
+			writing-mode: vertical-lr;
+			transform: rotate(180deg);
+		}
+
+		.where {
+			position: absolute;
+			position: absolute;
+			font-family: sans-serif;
+			line-height: 1.7;
+			top: 3000px; 
+			left: 640px;
+		}
+		.where1 {
+			position: absolute;
+			position: absolute;
+			font-family: sans-serif;
+			line-height: 1.7;
+			top: 3000px; 
+			left: 1100px;
+		}
+
+		.pinkbg {
+			position: relative;
+			background-color: #d66fb4;
+			width: 100%;
+			height: 2040px;
+		}
+		.bluebg {
+			position: absolute;
+			background-color: #30283b;
+			width: 300px;
+			height: 1080px;
+			left: 300px;
+			top: 0px;
+		}
+		.orangebg {
+			position: absolute;
+			background-color: #e65d1e;
+			width: 300px;
+			height: 740px;
+			left: 600px;
+			top: 340px;
+
+		}
+		.skybluebg {
+			position: absolute;
+			background-color: #31c5da;
+			width: 300px;
+			height: 1700px;
+			left: 900px;
+			top: 340px;
+		}
+		.orangebg2 {
+			position: absolute;
+			background-color: #e65d1e;
+			width: 303px;
+			height: 740px;
+			right: 0px;
+			top: 340px;
+		}
+
+		.select {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 18pt;
+			font-weight: 700;
+			color: white;
+			left: 25px;
+			top: 465px;
+		}
+		.n1 {
+			font-weight: 400;
+			font-size: 85pt;
+			font-family: sans-serif;
+			color: white;
+			margin-top: 480px;
+			margin-left: 20px;
+		}
+		.n2 {
+			font-weight: 400;
+			font-size: 85pt;
+			font-family: sans-serif;
+			color: white;
+			margin-top: 135px;
+			margin-left: 20px;
+		}
+		.t1 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			left: 15px;
+			top: 580px;
+			font-weight: 400;
+			line-height: 1.6;
+		}
+		.t2 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			left: 15px;
+			top: 235px;
+			font-weight: 400;
+			line-height: 1.6;
+		}
+		.n3 {
+			position: absolute;
+			font-weight: 400;
+			font-size: 85pt;
+			font-family: sans-serif;
+			color: white;
+			left: 20px;
+			top: 740px;
+		}
+		.t3 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			left: 15px;
+			top: 950px;
+			font-weight: 400;
+			line-height: 1.6;
+		}
+		.n4 {
+			font-weight: 400;
+			font-size: 85pt;
+			font-family: sans-serif;
+			color: white;
+			margin-top: 245px;
+			margin-left: 20px;
+		}
+		.t4 {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			color: white;
+			left: 15px;
+			top: 607px;
+			font-weight: 400;
+			line-height: 1.6;
+		}
+		.arch {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 18pt;
+			left: 820px;
+			top: 1260px;
+			writing-mode: vertical-lr;
+			transform: rotate(180deg);
+			color: white;
+			font-weight: 700;	
+		}
+		.reso {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 18pt;
+			left: 820px;
+			top: 1550px;
+			writing-mode: vertical-lr;
+			transform: rotate(180deg);
+			color: white;
+			font-weight: 700;	
+		}
+
+		.rob {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			/*color: white;*/
+			left: 15px;
+			top: 907px;
+			font-weight: 400;
+			line-height: 1.7;
+		}
+		.view {
+			position: absolute;
+			font-family: sans-serif;
+			font-size: 12pt;
+			/*color: white;*/
+			left: 15px;
+			top: 1195px;
+			font-weight: 400;
+			line-height: 1.7;
+		}
+	.circlee {
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		/*opacity: 0.9;*/
+	}
