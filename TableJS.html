@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TableJS</title>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+//Table Program using JavaScript
+var a1 = prompt("Enter number: ")
+var start = prompt("Enter starting number from which table start: ")
+var end = prompt("Enter last number from which table end: ")
+
+if(start<end){
+	for (cnt=parseInt(start);parseInt(cnt)<=end;cnt++){
+		document.write("<h1>" + a1 + "x" + cnt + "=" + a1*cnt + "</h1>")
+	}
+}else{
+	for (cnt=parseInt(start);parseInt(cnt)>=end;cnt-=1){
+		document.write("<h1>" + a1 + "x" + cnt + "=" + a1*cnt + "</h1>")
+	}
+}
+
+</script>
+</body>
+</html>
